@@ -1,13 +1,3 @@
-"""
-Pytest Configuration and Shared Fixtures
-
-This conftest.py provides shared fixtures for:
-- Browser/page management (Playwright)
-- API client instances
-- Authentication
-- Test data cleanup
-- BrowserStack integration
-"""
 
 import pytest
 from typing import Generator, Optional
